@@ -1,0 +1,6 @@
+sys
+requests
+json
+docx 
+tkinter
+django 
