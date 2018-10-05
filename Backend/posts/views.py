@@ -13,14 +13,10 @@ def index(request):
 
 		body_unicode = request.body.decode('utf-8')
 		body = json.loads(body_unicode)
-		print(body)
 
-
-		# st = Stat(body['headNum'],body['paraNum'])
 		st =Stat()
 		st.headNum=body['headNum']
 		st.paraNum=body['paraNum']
-		st.show()
 		st.save()
 
 		return JsonResponse({'message':'added to DB'})
