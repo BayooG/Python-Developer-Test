@@ -1,4 +1,4 @@
-# Python-Develop-Test
+# Python-Developer-Test
 
 I used Tkinter for Developing the graphic user interface and used local database 
 
